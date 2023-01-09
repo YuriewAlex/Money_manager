@@ -18,15 +18,14 @@
             android:layout_marginTop="32dp"
             android:layout_marginHorizontal="32dp"
             android:inputType="numberSigned"
-            android:text="@strings/def_cash"
-            android:visibility="invisible"
+            android:text="@string/def_cash"
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
             android:id="@+id/et_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@strings/title"
+            android:hint="@string/title"
             android:layout_marginTop="32dp"
             android:layout_marginHorizontal="32dp"
             app:layout_constraintTop_toBottomOf="@id/value_input" />
@@ -78,7 +77,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="32dp"
                 android:layout_marginStart="3dp"
-                android:text="@strings/date"
+                android:text="@string/date"
                 android:textSize="18sp"
                 app:layout_constraintTop_toBottomOf="@id/guideline2"
                 app:layout_constraintLeft_toLeftOf="parent"
@@ -91,7 +90,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="32dp"
                 android:layout_marginBottom="32dp"
-                android:text="@strings/def_date"
+                android:text="@string/def_date"
                 app:layout_constraintTop_toBottomOf="@id/guideline2"
                 app:layout_constraintEnd_toEndOf="parent"
                 />
@@ -111,7 +110,7 @@
                 android:layout_height="wrap_content"
                 android:inputType="textMultiLine"
                 android:gravity="top|left"
-                android:hint="@strings/description"
+                android:hint="@string/description"
                 android:layout_marginTop="32dp"
                 android:layout_marginHorizontal="32dp"
                 app:layout_constraintTop_toBottomOf="@id/income_expense" tools:ignore="RtlHardcoded"/>
@@ -121,7 +120,7 @@
             android:id="@+id/button_ok"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@strings/submit"
+            android:text="@string/submit"
             android:layout_marginTop="32dp"
             app:layout_constraintTop_toBottomOf="@id/description"
             app:layout_constraintBottom_toBottomOf="parent"
