@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MoneyManager</string>
+    <string name="tab_text_1">Transactions</string>
+    <string name="tab_text_2">Statistics</string>
+    <string name="balance_text">Balance</string>
+    <string name="incomes_text">Incomes</string>
+    <string name="expenses_text">Expenses</string>
+    <string name="submit">Submit</string>
+    <string name="description">Description</string>
+    <string name="def_date">20–12–2022</string>
+    <string name="date">Date</string>
+    <string name="def_cash">0.00</string>
+    <string name="title">Title</string>
+    <string name="expense">Expense</string>
+</resources>
